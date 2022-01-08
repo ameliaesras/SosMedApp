@@ -3,27 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0E1C700A27882CF60056645B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C700927882CF60056645B /* AppDelegate.swift */; };
 		0E1C700C27882CF60056645B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C700B27882CF60056645B /* SceneDelegate.swift */; };
-		0E1C700E27882CF60056645B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C700D27882CF60056645B /* ViewController.swift */; };
+		0E1C700E27882CF60056645B /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C700D27882CF60056645B /* SignInVC.swift */; };
 		0E1C701127882CF60056645B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C700F27882CF60056645B /* Main.storyboard */; };
 		0E1C701327882CF80056645B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C701227882CF80056645B /* Assets.xcassets */; };
 		0E1C701627882CF80056645B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C701427882CF80056645B /* LaunchScreen.storyboard */; };
+		0E321A0A278933DC00E322A9 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E321A09278933DC00E322A9 /* HomeController.swift */; };
+		0E321A0C2789344C00E322A9 /* HomeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E321A0B2789344C00E322A9 /* HomeTableCell.swift */; };
+		0E321A0E278934D800E322A9 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E321A0D278934D800E322A9 /* Posts.swift */; };
+		0E321A1027894A9800E322A9 /* DetailPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E321A0F27894A9800E322A9 /* DetailPostVC.swift */; };
+		0E321A122789585F00E322A9 /* UserCommentsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E321A112789585F00E322A9 /* UserCommentsTableCell.swift */; };
+		0E4F5B5B27883E0C00AEC571 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4F5B5A27883E0C00AEC571 /* Extensions.swift */; };
+		0E4F5B5D278852D000AEC571 /* ProfileUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4F5B5C278852D000AEC571 /* ProfileUserVC.swift */; };
+		0E4F5B602788543D00AEC571 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4F5B5F2788543D00AEC571 /* API.swift */; };
+		0E4F5B6227888A5D00AEC571 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4F5B6127888A5D00AEC571 /* User.swift */; };
+		0ED408D5278832B7006465AA /* Login.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ED408D4278832B7006465AA /* Login.json */; };
+		7E63503B64C960140F3C34C5 /* Pods_SosMedApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FCA1EFFDBD08485E515A5F /* Pods_SosMedApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E1C700627882CF60056645B /* SosMedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SosMedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E1C700927882CF60056645B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E1C700B27882CF60056645B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0E1C700D27882CF60056645B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0E1C700D27882CF60056645B /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		0E1C701027882CF60056645B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E1C701227882CF80056645B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E1C701527882CF80056645B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E1C701727882CF80056645B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E321A09278933DC00E322A9 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		0E321A0B2789344C00E322A9 /* HomeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableCell.swift; sourceTree = "<group>"; };
+		0E321A0D278934D800E322A9 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		0E321A0F27894A9800E322A9 /* DetailPostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPostVC.swift; sourceTree = "<group>"; };
+		0E321A112789585F00E322A9 /* UserCommentsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCommentsTableCell.swift; sourceTree = "<group>"; };
+		0E4F5B5A27883E0C00AEC571 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0E4F5B5C278852D000AEC571 /* ProfileUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUserVC.swift; sourceTree = "<group>"; };
+		0E4F5B5F2788543D00AEC571 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		0E4F5B6127888A5D00AEC571 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0ED408D4278832B7006465AA /* Login.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Login.json; path = ../../../../../Downloads/Login.json; sourceTree = "<group>"; };
+		27A315CCC1CF91F8CF3B875B /* Pods-SosMedApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SosMedApp.debug.xcconfig"; path = "Target Support Files/Pods-SosMedApp/Pods-SosMedApp.debug.xcconfig"; sourceTree = "<group>"; };
+		53FCA1EFFDBD08485E515A5F /* Pods_SosMedApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SosMedApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC75957574F45189E02DB8C4 /* Pods-SosMedApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SosMedApp.release.xcconfig"; path = "Target Support Files/Pods-SosMedApp/Pods-SosMedApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E63503B64C960140F3C34C5 /* Pods_SosMedApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +67,8 @@
 			children = (
 				0E1C700827882CF60056645B /* SosMedApp */,
 				0E1C700727882CF60056645B /* Products */,
+				6A7601DCFBDE8E55C34C220D /* Pods */,
+				84E797EC0F6E32520CFE3EA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +83,98 @@
 		0E1C700827882CF60056645B /* SosMedApp */ = {
 			isa = PBXGroup;
 			children = (
-				0E1C700927882CF60056645B /* AppDelegate.swift */,
-				0E1C700B27882CF60056645B /* SceneDelegate.swift */,
-				0E1C700D27882CF60056645B /* ViewController.swift */,
-				0E1C700F27882CF60056645B /* Main.storyboard */,
-				0E1C701227882CF80056645B /* Assets.xcassets */,
-				0E1C701427882CF80056645B /* LaunchScreen.storyboard */,
+				0EE75A3B27882E3400286D7C /* Model */,
+				0EE75A3C27882E4000286D7C /* View */,
+				0EE75A3D27882E4700286D7C /* Controller */,
+				0E4F5B5E2788542600AEC571 /* Network */,
+				0EE75A3E27882E6100286D7C /* Resources */,
 				0E1C701727882CF80056645B /* Info.plist */,
 			);
 			path = SosMedApp;
+			sourceTree = "<group>";
+		};
+		0E4F5B5E2788542600AEC571 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0E4F5B5F2788543D00AEC571 /* API.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0EE75A3B27882E3400286D7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E4F5B6127888A5D00AEC571 /* User.swift */,
+				0E321A0D278934D800E322A9 /* Posts.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0EE75A3C27882E4000286D7C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0EE75A40278830FC00286D7C /* LottieFile */,
+				0EE75A3F27882E8300286D7C /* Storyboards */,
+				0E4F5B5A27883E0C00AEC571 /* Extensions.swift */,
+				0E321A0B2789344C00E322A9 /* HomeTableCell.swift */,
+				0E321A112789585F00E322A9 /* UserCommentsTableCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0EE75A3D27882E4700286D7C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E1C700D27882CF60056645B /* SignInVC.swift */,
+				0E4F5B5C278852D000AEC571 /* ProfileUserVC.swift */,
+				0E321A09278933DC00E322A9 /* HomeController.swift */,
+				0E321A0F27894A9800E322A9 /* DetailPostVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0EE75A3E27882E6100286D7C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0E1C700927882CF60056645B /* AppDelegate.swift */,
+				0E1C700B27882CF60056645B /* SceneDelegate.swift */,
+				0E1C701227882CF80056645B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0EE75A3F27882E8300286D7C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0E1C701427882CF80056645B /* LaunchScreen.storyboard */,
+				0E1C700F27882CF60056645B /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0EE75A40278830FC00286D7C /* LottieFile */ = {
+			isa = PBXGroup;
+			children = (
+				0ED408D4278832B7006465AA /* Login.json */,
+			);
+			path = LottieFile;
+			sourceTree = "<group>";
+		};
+		6A7601DCFBDE8E55C34C220D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27A315CCC1CF91F8CF3B875B /* Pods-SosMedApp.debug.xcconfig */,
+				AC75957574F45189E02DB8C4 /* Pods-SosMedApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		84E797EC0F6E32520CFE3EA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53FCA1EFFDBD08485E515A5F /* Pods_SosMedApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E1C701A27882CF80056645B /* Build configuration list for PBXNativeTarget "SosMedApp" */;
 			buildPhases = (
+				A6C4DC32DA5183B6E74DE0A6 /* [CP] Check Pods Manifest.lock */,
 				0E1C700227882CF60056645B /* Sources */,
 				0E1C700327882CF60056645B /* Frameworks */,
 				0E1C700427882CF60056645B /* Resources */,
+				04FEF16FE29DF3FEB60358B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +239,71 @@
 				0E1C701627882CF80056645B /* LaunchScreen.storyboard in Resources */,
 				0E1C701327882CF80056645B /* Assets.xcassets in Resources */,
 				0E1C701127882CF60056645B /* Main.storyboard in Resources */,
+				0ED408D5278832B7006465AA /* Login.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04FEF16FE29DF3FEB60358B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SosMedApp/Pods-SosMedApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SosMedApp/Pods-SosMedApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SosMedApp/Pods-SosMedApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6C4DC32DA5183B6E74DE0A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SosMedApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0E1C700227882CF60056645B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E1C700E27882CF60056645B /* ViewController.swift in Sources */,
+				0E1C700E27882CF60056645B /* SignInVC.swift in Sources */,
 				0E1C700A27882CF60056645B /* AppDelegate.swift in Sources */,
 				0E1C700C27882CF60056645B /* SceneDelegate.swift in Sources */,
+				0E321A122789585F00E322A9 /* UserCommentsTableCell.swift in Sources */,
+				0E4F5B5D278852D000AEC571 /* ProfileUserVC.swift in Sources */,
+				0E321A0A278933DC00E322A9 /* HomeController.swift in Sources */,
+				0E4F5B602788543D00AEC571 /* API.swift in Sources */,
+				0E4F5B5B27883E0C00AEC571 /* Extensions.swift in Sources */,
+				0E321A0E278934D800E322A9 /* Posts.swift in Sources */,
+				0E321A1027894A9800E322A9 /* DetailPostVC.swift in Sources */,
+				0E4F5B6227888A5D00AEC571 /* User.swift in Sources */,
+				0E321A0C2789344C00E322A9 /* HomeTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +447,7 @@
 		};
 		0E1C701B27882CF80056645B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27A315CCC1CF91F8CF3B875B /* Pods-SosMedApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +467,7 @@
 		};
 		0E1C701C27882CF80056645B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC75957574F45189E02DB8C4 /* Pods-SosMedApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
